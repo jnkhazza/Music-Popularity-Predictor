@@ -1,0 +1,59 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html> -->
+
+<html>
+    <body bgcolor=#00d600>
+
+        <center>
+
+        <h1> Music Machine </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Danceability :  <input type="text", name='a', placeholder="enter decimal 0.0 to 1.0"> <br><br>
+            Energy :  <input type="text", name='b', placeholder="enter decimal 0.0 to 1.0"> <br><br>
+            Key :  <input type="text", name='c', placeholder="enter key 1 to 11"> <br><br>
+            Loudness : <input type="text", name='d', placeholder="enter loudness (+ or -)"> <br><br>
+            Mode :  <input type="text", name='e', placeholder="enter 0 or 1"> <br><br>
+            Speechiness :  <input type="text", name='f', placeholder="enter decimal 0.0 to 1.0"> <br><br>
+            Acousticness :  <input type="text", name='g', placeholder="enter decimal 0.0 to 1.0"> <br><br>
+            Instrumentalness : <input type="text", name='h', placeholder="enter decimal 0.0 to 1.0"> <br><br>
+            Liveness :  <input type="text", name='i', placeholder="enter decimal 0.0 to 1.0"> <br><br>
+            Valence :  <input type="text", name='j', placeholder="enter decimal 0.0 to 1.0"> <br><br>
+            Tempo :  <input type="text", name='k', placeholder="enter tempo"> <br><br>
+            Duration in ms: <input type="text", name='l', placeholder="enter milliseconds"> <br><br>
+            Time Signature :  <input type="text", name='m', placeholder="enter time signature 1 to 5"> <br><br>
+            Genre: <input type="text", name='n', placeholder="enter 4"> <br><br>
+            <br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+        
+        <!-- <div class="container">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Genre
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+
+        </div> -->
+                    
+        
+    </center>
+
+    </body>
+</html>
